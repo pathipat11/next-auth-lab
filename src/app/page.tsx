@@ -2,6 +2,7 @@
 import { signOut, useSession } from "next-auth/react";
 import styles from "./page.module.css";
 import { Button } from "@mui/material";
+import React from "react";
 
 export default function Home() {
   const { data: session } = useSession();

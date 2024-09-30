@@ -37,6 +37,7 @@ const handler = NextAuth({
           loginUser.password, //1234
           hashPasswordFromDB //
         );
+
         //return user
         const user = { id: "1", email: credentials?.email };
         if (loginUser.password === "1234") {

@@ -31,7 +31,7 @@ export default function page() {
   };
   return (
     <>
-      <Typography variant="h4">This is Signin page</Typography>
+      <Typography variant="h1">This is Signin page</Typography>
       <Link href="/signup">Signup</Link>
       <form onSubmit={(e) => handleSubmit(e)}>
         <Stack
